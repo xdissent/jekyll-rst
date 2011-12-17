@@ -76,7 +76,7 @@ Optional arguments exist to supply a caption, link, and link title::
       :url: http://news.ycombinator.com
       :title: Hacker News
 
-   $ curl http://news.ycombinator.com | less
+      $ curl http://news.ycombinator.com | less
 
 Octopress already includes style sheets for syntax highlighting, but you'll
 need to generate one yourself if using Jekyll::
