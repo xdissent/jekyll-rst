@@ -18,7 +18,7 @@ PYGMENTS_CACHE_DIR = os.path.abspath(os.path.join(os.path.dirname(__main__.__fil
 
 # Ensure cache dir exists
 if not os.path.exists(PYGMENTS_CACHE_DIR):
-    os.mkdirs(PYGMENTS_CACHE_DIR)
+    os.makedirs(PYGMENTS_CACHE_DIR)
 
 from pygments.formatters import HtmlFormatter
 
